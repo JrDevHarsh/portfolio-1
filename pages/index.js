@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Header from "../components/Header/Header";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <Header />
     </div>
   );
 }

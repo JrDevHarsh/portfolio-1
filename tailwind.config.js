@@ -20,6 +20,13 @@ module.exports = {
       maxWidth: {
         "8xl": "1440px",
       },
+      transitionDelay: {
+        50: "50ms",
+        60: "60ms",
+        70: "70ms",
+        80: "80ms",
+        90: "90ms",
+      },
     },
   },
   plugins: [],

@@ -1,10 +1,11 @@
 import Head from "next/head";
+import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MainHeading from "../components/MainHeading/MainHeading";
 
 export default function Home() {
   return (
-    <div>
+    <div className="text-[#202124]">
       <Head>
         <title>JunDevHarsh | Front-End Developer Portfolio</title>
         <meta
@@ -29,6 +30,7 @@ export default function Home() {
         </section>
         <MainHeading />
       </main>
+      <Footer />
     </div>
   );
 }

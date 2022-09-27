@@ -6,7 +6,7 @@ const DesktopNavbar = () => {
   const links = ["Home", "About", "Skills", "Projects", "Contact"];
 
   return (
-    <nav className="relative h-full lg:mr-16 flex items-center justify-end flex-1">
+    <nav className="relative h-full lg:mr-16 hidden md:flex items-center justify-end flex-1">
       <div className="relative h-full inline-flex items-center flex-row">
         {links.map((link) => (
           <Link key={link} href={"#" + link}>

@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Header from "../components/Header/Header";
+import MainHeading from "../components/MainHeading/MainHeading";
 
 export default function Home() {
   return (
@@ -21,6 +22,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Header />
+      <main className="relative w-full">
+        <section className="block">
+          <div className="h-8 lg:h-12 bg-white"></div>
+          <div className="h-8 lg:h-12 bg-white"></div>
+        </section>
+        <MainHeading />
+      </main>
     </div>
   );
 }

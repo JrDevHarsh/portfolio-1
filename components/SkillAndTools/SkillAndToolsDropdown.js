@@ -2,8 +2,7 @@ import { BsChevronDown } from "react-icons/bs";
 import SkillGridBox from "./SkillGridBox";
 
 const SkillAndToolsDropdown = ({ heading, list }) => {
-  const addClass = (eve) => {
-    console.log("clicked");
+  const toggleClass = (eve) => {
     return eve.target.closest(".row").classList.toggle("dropdown_row");
   };
 
@@ -13,7 +12,7 @@ const SkillAndToolsDropdown = ({ heading, list }) => {
         title="Press to expand"
         role={"button"}
         tabIndex={0}
-        onClick={(e) => addClass(e)}
+        onClick={(e) => toggleClass(e)}
         className="row py-6 lg:py-7 flex items-center cursor-pointer text-dark_blue hover:text-[#174ea6] focus:text-[#174ea6] border-b-2 border-solid border-b-gray focus:border-b-dark_blue"
       >
         <h4 className="mr-2 sm:mr-4 lg:mr-6 flex-1 self-center text-base text-current tracking-wider leading-6 font-medium">

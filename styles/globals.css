@@ -1,26 +1,55 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* TailwindCss directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  font-size: 100%;
+  font-style: normal;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* skills dropdown styles */
+
+.dropdown_row svg.dropdown_arrow {
+  transform: rotate(180deg);
 }
 
-* {
-  box-sizing: border-box;
+.dropdown_content {
+  max-height: 0;
+  transition: max-height 0.5s ease;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+.dropdown_row + .dropdown_content {
+  max-height: 400px;
+}
+
+.dropdown_row + .dropdown_content:last-child {
+  border-bottom: 1px solid #dadce0;
+}
+
+/* skill grid box styles */
+
+.skill_grid_box {
+  border-top: 1px solid #dadce0;
+}
+
+.skill_grid_box:first-child {
+  border-top: 0;
+}
+
+@media (min-width: 640px) {
+  .skill_grid_box:nth-child(2) {
+    border-top: 0;
   }
-  body {
-    color: white;
-    background: black;
+}
+
+@media (min-width: 1024px) {
+  .skill_grid_box {
+    border-top: 0;
   }
 }

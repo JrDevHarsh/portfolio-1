@@ -27,6 +27,16 @@ module.exports = {
         80: "80ms",
         90: "90ms",
       },
+      gridTemplateColumns: {
+        custom_4: "repeat(4, minmax(5px, 1fr))",
+        custom_12: "repeat(12, minmax(5px, 1fr))",
+      },
+      gridColumnEnd: {
+        span_3: "span 3",
+        span_4: "span 4",
+        span_6: "span 6",
+        span_12: "span 12",
+      },
     },
   },
   plugins: [],

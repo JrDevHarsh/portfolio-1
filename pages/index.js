@@ -2,6 +2,7 @@ import Head from "next/head";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MainHeading from "../components/MainHeading/MainHeading";
+import SkillAndTools from "../components/SkillAndTools/SkillAndTools";
 
 export default function Home() {
   return (
@@ -28,7 +29,10 @@ export default function Home() {
           <div className="h-8 lg:h-12 bg-white"></div>
           <div className="h-8 lg:h-12 bg-white"></div>
         </section>
+        {/* Main heading section */}
         <MainHeading />
+        {/* Skills and tools section */}
+        <SkillAndTools />
       </main>
       <Footer />
     </div>

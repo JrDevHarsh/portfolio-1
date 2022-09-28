@@ -1,0 +1,86 @@
+[
+    {
+        "id": "1",
+        "heading": "Front-end languages",
+        "list": [
+            {
+                "id": "101",
+                "title": "HTML",
+                "img_src": "programming_language/html",
+                "web_link": "https://html.com/"
+            },
+            {
+                "id": "102",
+                "title": "CSS",
+                "img_src": "programming_language/css",
+                "web_link": "https://www.w3.org/Style/CSS/Overview.en.html"
+            },
+            {
+                "id": "103",
+                "title": "JavaScript",
+                "img_src": "programming_language/javascript",
+                "web_link": "https://www.javascript.com/"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "heading": "Front-end libraries/frameworks",
+        "list": [
+            {
+                "id": "201",
+                "title": "React.js",
+                "img_src": "programming_language/react-js",
+                "web_link": "https://reactjs.org/"
+            },
+            {
+                "id": "202",
+                "title": "Next.js",
+                "img_src": "programming_language/nextjs",
+                "web_link": "https://nextjs.org/"
+            },
+            {
+                "id": "103",
+                "title": "Bootstrap",
+                "img_src": "programming_language/bootstrap",
+                "web_link": "https://getbootstrap.com/"
+            },
+            {
+                "id": "104",
+                "title": "TailwindCss",
+                "img_src": "programming_language/tailwind-css",
+                "web_link": "https://tailwindcss.com/"
+            }
+        ]
+    },
+    {
+        "id": "3",
+        "heading": "Tools",
+        "list": [
+            {
+                "id": "301",
+                "title": "Git",
+                "img_src": "tools/git",
+                "web_link": "https://git-scm.com/"
+            },
+            {
+                "id": "302",
+                "title": "Github",
+                "img_src": "tools/github",
+                "web_link": "https://github.com/"
+            },
+            {
+                "id": "303",
+                "title": "Visual Studio Code",
+                "img_src": "tools/vs-code",
+                "web_link": "https://code.visualstudio.com/"
+            },
+            {
+                "id": "304",
+                "title": "Figma",
+                "img_src": "tools/figma",
+                "web_link": "https://www.figma.com/"
+            }
+        ]
+    }
+]

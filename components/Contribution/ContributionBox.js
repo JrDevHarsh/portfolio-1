@@ -5,6 +5,7 @@ const ContributionBox = ({ title, imgSrc, githubSrc, list }) => {
     <div className="p-0.5 mr-0 sm:mr-7 flex basis-96 items-center sm:items-start flex-column sm:flex-row flex-shrink-0 gap-7 md:gap-10">
       <a
         target="_blank"
+        rel="noreferrer"
         href={githubSrc}
         className="h-full block bg-white overflow-hidden outline-none shadow-shadow_1 hover:shadow-shadow_2 rounded-lg border border-solid border-gray hover:border-transparent transition-all duration-300"
       >

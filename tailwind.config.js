@@ -43,6 +43,15 @@ module.exports = {
         span_8: "span 8",
         span_12: "span 12",
       },
+      minHeight: {
+        "custom_1": "calc(100vh - 64px - 60px)",
+        "custom_2": "calc(100vh - 64px)",
+      },
+      width: {
+        "custom_1": "calc(100% - (180px * 2 + 10px))",
+        "custom_2": "calc(100% - 60px * 2)",
+        "custom_3": "calc(100% - 24px * 2)"
+      }
     },
   },
   plugins: [],

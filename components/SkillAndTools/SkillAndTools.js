@@ -5,11 +5,10 @@ import Skills from "./Skills.json";
 const SkillAndTools = () => {
   return (
     <>
-      <section className="mx-7 sm:mx-10 lg:mx-16">
+      <section className="mx-7 sm:mx-10 lg:mx-16" id="Skills">
         <div className="grid gap-x-7 sm:gap-x-10 lg:gap-x-12 grid-cols-custom_4 sm:grid-cols-custom_12 border-t border-solid border-t-gray">
           <div className="my-12 lg:my-14 block col-end-span_4 sm:col-end-span_12 text-center">
             <h3 className="text-5xl sm:text-[8vw] leading-[1.3em] tracking-wider">
-              {/* <span>Ski</span> */}
               <span className="text-blue">S</span>
               <span className="text-red">k</span>
               <span className="text-yellow">i</span>

@@ -20,6 +20,11 @@ module.exports = {
       maxWidth: {
         "8xl": "1440px",
       },
+      boxShadow: {
+        shadow_1: "0 0 0 0 (#dadce0)",
+        shadow_2:
+          "0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%)",
+      },
       transitionDelay: {
         50: "50ms",
         60: "60ms",
@@ -35,6 +40,7 @@ module.exports = {
         span_3: "span 3",
         span_4: "span 4",
         span_6: "span 6",
+        span_8: "span 8",
         span_12: "span 12",
       },
     },

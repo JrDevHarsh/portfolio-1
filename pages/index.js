@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Contribution from "../components/Contribution/Contribution";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MainHeading from "../components/MainHeading/MainHeading";
@@ -31,6 +32,8 @@ export default function Home() {
         </section>
         {/* Main heading section */}
         <MainHeading />
+        {/* Contribution seciton */}
+        <Contribution />
         {/* Skills and tools section */}
         <SkillAndTools />
       </main>

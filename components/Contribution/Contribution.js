@@ -21,7 +21,7 @@ const Contribution = () => {
         <div className="mb-12">
           <div className="relative block pt-6 min-w-[300px]">
             <div className="overflow-hidden">
-              <div className="flex flex-row translate-x-0">
+              <div className="flex flex-row flex-wrap gap-y-4 translate-x-0">
                 {Contributions.map((contribute) => {
                   const { id, title, img_src, github_src, list } = contribute;
                   return (

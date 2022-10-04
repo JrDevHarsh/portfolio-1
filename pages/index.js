@@ -4,6 +4,7 @@ import Contribution from "../components/Contribution/Contribution";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import MainHeading from "../components/MainHeading/MainHeading";
+import Project from "../components/Project/Project";
 import SkillAndTools from "../components/SkillAndTools/SkillAndTools";
 
 export default function Home() {
@@ -35,6 +36,8 @@ export default function Home() {
         <MainHeading />
         {/* About section */}
         <About />
+        {/* Project section */}
+        <Project />
         {/* Contribution seciton */}
         <Contribution />
         {/* Skills and tools section */}

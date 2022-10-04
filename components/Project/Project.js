@@ -23,7 +23,7 @@ const Project = () => {
         {/* heading */}
         <div className="mx-auto max-w-3xl text-center">
           <h3 className="mb-4 text-2xl lg:text-3xl tracking-wider">
-            Some Things I've Built
+            Some Things I&#39;ve Built
           </h3>
           <p className="mx-auto max-w-3xl sm:max-w-lg lg:max-w-3xl text-sm sm:text-base text-dark_gray font-normal tracking-wider">
             A selection of projects that I have worked with. Check out each

@@ -1,0 +1,94 @@
+[
+    {
+        "id": 161,
+        "project_name": "Amazon Clone App",
+        "github_link": "https://github.com/JunDevHarsh/amazon-clone",
+        "preview_link": "https://amazon-clone-dev.netlify.app/",
+        "features": [
+            {
+                "id": 1611,
+                "heading": "Native Amazon UI",
+                "body": "Made UI experience friendly to the user which makes it look actual real compare to Amazon website."
+            },
+            {
+                "id": 1612,
+                "heading": "Real world search functionality",
+                "body": "Included search for a specific product that is backbone of modern e-commerce platform."
+            },
+            {
+                "id": 1613,
+                "heading": "User account settings",
+                "body": "Provided option for user to make changes in account and payment options."
+            }
+        ]
+    },
+    {
+        "id": 162,
+        "project_name": "Crypto City App",
+        "github_link": "https://github.com/JunDevHarsh/crypto-city-app",
+        "preview_link": "https://crypto-tracker-0.netlify.app/",
+        "features": [
+            {
+                "id": 1621,
+                "heading": "Real-time data",
+                "body": "Supported real-time market cap and price action of all the cyptocurrency coins."
+            },
+            {
+                "id": 1622,
+                "heading": "Past data presentaion",
+                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+            },
+            {
+                "id": 1623,
+                "heading": "Indian currency supportable",
+                "body": "User can preview price of specific coin in Indian currency: Ruppee."
+            }
+        ]
+    },
+    {
+        "id": 163,
+        "project_name": "Quiz React App",
+        "github_link": "https://github.com/JunDevHarsh/quiz-react-app",
+        "preview_link": "https://intuitive-quiz-hub-app.netlify.app/",
+        "features": [
+            {
+                "id": 1631,
+                "heading": "Multiple type questions",
+                "body": "Multiple type"
+            },
+            {
+                "id": 1632,
+                "heading": "Past data presentation",
+                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+            },
+            {
+                "id": 1633,
+                "heading": "Indian currency supportable",
+                "body": "User can preview price of specific coin in Indian currency: Ruppee."
+            }
+        ]
+    },
+    {
+        "id": 164,
+        "project_name": "Delicious App",
+        "github_link": "https://github.com/JunDevHarsh/delicious-app",
+        "preview_link": "https://ammazon.netlify.app/",
+        "features": [
+            {
+                "id": 1641,
+                "heading": "Real-time data",
+                "body": "Supported real-time market cap and price action of all the cyptocurrency coins."
+            },
+            {
+                "id": 1642,
+                "heading": "Past data presentaion",
+                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+            },
+            {
+                "id": 1643,
+                "heading": "Indian currency supportable",
+                "body": "User can preview price of specific coin in Indian currency: Ruppee."
+            }
+        ]
+    }
+]

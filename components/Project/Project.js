@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import Projects from "./Projects.json";
 
@@ -18,7 +19,7 @@ const Project = () => {
 
   return (
     <section className="mx-7 sm:mx-10 lg:mx-16">
-      <div className="mx-auto lg:pt-0 py-16 px-7 sm:px-0 lg:px-7 lg:pb-12 w-full sm:w-custom_2 max-w-8xl">
+      <div className="mx-auto lg:pt-0 py-16 px-7 sm:px-0 lg:px-7 lg:pb-16 w-full sm:w-custom_2 max-w-8xl">
         {/* heading */}
         <div className="mx-auto max-w-3xl text-center">
           <h3 className="mb-4 text-2xl lg:text-3xl tracking-wider">
@@ -30,15 +31,21 @@ const Project = () => {
             technologies and platforms being used.
           </p>
         </div>
-        {Projects.map((product) => (
-          <div key={product.id} className="project_div lg:min-h-[380px] grid gap-x-7 sm:gap-x-10 lg:gap-x-12 grid-cols-custom_4 sm:grid-cols-custom_12">
+        <div></div>
+        {Projects.map((project, idx) => (
+          <div key={project.id} className="project_div lg:min-h-[380px] grid gap-x-7 sm:gap-x-10 lg:gap-x-12 grid-cols-custom_4 sm:grid-cols-custom_12">
             {/* left col */}
-            <div className="project_left_div block col-end-span_4 sm:col-end-span_12 lg:col-end-span_6"></div>
+            <div className="project_left_div block col-end-span_4 sm:col-end-span_12 lg:col-end-span_6">
+              <div className="relative h-full w-full flex items-center justify-center">
+                <Image src={`/images/projects/${project.image_ref}-${current + 1}.png`} layout="fill" objectFit="contain" alt={project.image_ref + "preview img"} />
+              </div>
+            </div>
             {/* right col */}
             <div className="project_right_div block col-end-span_4 sm:col-end-span_12 lg:col-end-span_6">
               <div className="relative">
                 <div className="relative my-6 mx-0 pt-14 flex items-center justify-center lg:justify-start flex-row flex-nowrap lg:flex-wrap text-center">
-                  {product.features.map((feature, index) => (
+                  <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 text-[6rem] lg:text-[15rem] text-[#e8eaed] tracking-wider">{idx + 1}</div>
+                  {project.features.map((feature, index) => (
                     <div
                       key={feature.id}
                       className={`${

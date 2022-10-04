@@ -4,6 +4,7 @@
         "project_name": "Amazon Clone App",
         "github_link": "https://github.com/JunDevHarsh/amazon-clone",
         "preview_link": "https://amazon-clone-dev.netlify.app/",
+        "image_ref": "amazon",
         "features": [
             {
                 "id": 1611,
@@ -13,12 +14,12 @@
             {
                 "id": 1612,
                 "heading": "Real world search functionality",
-                "body": "Included search for a specific product that is backbone of modern e-commerce platform."
+                "body": "It allows customers to search for products by keyword, category, or brand."
             },
             {
                 "id": 1613,
                 "heading": "User account settings",
-                "body": "Provided option for user to make changes in account and payment options."
+                "body": "The user account feature allows customers to create and manage their own account and payment options."
             }
         ]
     },
@@ -27,6 +28,7 @@
         "project_name": "Crypto City App",
         "github_link": "https://github.com/JunDevHarsh/crypto-city-app",
         "preview_link": "https://crypto-tracker-0.netlify.app/",
+        "image_ref": "crypto",
         "features": [
             {
                 "id": 1621,
@@ -35,8 +37,8 @@
             },
             {
                 "id": 1622,
-                "heading": "Past data presentaion",
-                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+                "heading": "Past data presentation",
+                "body": "The chart will show the cryptocurrency coin's price at various points in time."
             },
             {
                 "id": 1623,
@@ -50,21 +52,22 @@
         "project_name": "Quiz React App",
         "github_link": "https://github.com/JunDevHarsh/quiz-react-app",
         "preview_link": "https://intuitive-quiz-hub-app.netlify.app/",
+        "image_ref": "quiz",
         "features": [
             {
                 "id": 1631,
-                "heading": "Multiple type questions",
-                "body": "Multiple type"
+                "heading": "Multiple choice questions",
+                "body": "A great way to test your knowledge, you can select the correct answer from a list of options."
             },
             {
                 "id": 1632,
-                "heading": "Past data presentation",
-                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+                "heading": "Custom mode",
+                "body": "Provided various level of categories and levels according to user choice."
             },
             {
                 "id": 1633,
-                "heading": "Indian currency supportable",
-                "body": "User can preview price of specific coin in Indian currency: Ruppee."
+                "heading": "Highlight answer",
+                "body": "The feature allows users to see which answers they got correct and which answers they got incorrect."
             }
         ]
     },
@@ -73,21 +76,22 @@
         "project_name": "Delicious App",
         "github_link": "https://github.com/JunDevHarsh/delicious-app",
         "preview_link": "https://ammazon.netlify.app/",
+        "image_ref": "recipe",
         "features": [
             {
                 "id": 1641,
-                "heading": "Real-time data",
-                "body": "Supported real-time market cap and price action of all the cyptocurrency coins."
+                "heading": "Categorization",
+                "body": "This allows users to organize their recipes into different categories for easy reference."
             },
             {
                 "id": 1642,
-                "heading": "Past data presentaion",
-                "body": "One of the needed features like representation with chart of past price action of a specific coin."
+                "heading": "Search various recipes",
+                "body": "Just search for recipes by name, and you'll be presented with a variety of options."
             },
             {
                 "id": 1643,
-                "heading": "Indian currency supportable",
-                "body": "User can preview price of specific coin in Indian currency: Ruppee."
+                "heading": "Tips and guide",
+                "body": "Include tips on what kitchen supplies to use, how to prepare ingredients, and how to cook the dish."
             }
         ]
     }
